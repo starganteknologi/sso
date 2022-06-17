@@ -1,5 +1,6 @@
 {
     "require": {
+        "league/oauth2-server-bundle": "^0.3.0",
         "symfony/console": "^6.1",
         "symfony/dotenv": "^6.1",
         "symfony/flex": "^2.2",
@@ -53,7 +54,8 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "6.1.*"
+            "require": "6.1.*",
+            "docker": false
         }
     }
 }
