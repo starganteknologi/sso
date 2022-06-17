@@ -1,2 +1,4 @@
 # SETUP sso use symfony
-create composer.json
+
+- create composer.json
+- run ```composer install```
