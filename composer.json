@@ -1,5 +1,8 @@
 {
     "require": {
+        "doctrine/doctrine-bundle": "^2.7",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.12",
         "league/oauth2-server-bundle": "^0.3.0",
         "symfony/console": "^6.1",
         "symfony/dotenv": "^6.1",
@@ -32,10 +35,10 @@
         }
     },
     "require-dev": {
-        "symfony/stopwatch": "^6.1",
-        "symfony/web-profiler-bundle": "^6.1",
         "symfony/maker-bundle": "^1.43",
-        "symfony/twig-bundle": "^6.1"
+        "symfony/stopwatch": "^6.1",
+        "symfony/twig-bundle": "^6.1",
+        "symfony/web-profiler-bundle": "^6.1"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
