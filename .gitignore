@@ -60,3 +60,7 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> default 
+logo.png
+###< default
